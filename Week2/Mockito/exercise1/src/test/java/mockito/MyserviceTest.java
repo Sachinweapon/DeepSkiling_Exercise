@@ -1,4 +1,4 @@
-package Week2.Mockito.exercise1.src.test.java.mockito;
+package mockito;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -10,7 +10,7 @@ public class MyServiceTest {
     public void testExternalApi() {
         ExternalApi mockApi = mock(ExternalApi.class);           
         when(mockApi.getData()).thenReturn("Mock Data");         
-        MyService service = new MyService(mockApi);              
+        Myservice service = new Myservice(mockApi);              
         String result = service.fetchData();                     
         assertEquals("Mock Data", result);                       
     }

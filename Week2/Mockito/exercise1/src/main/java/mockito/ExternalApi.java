@@ -1,6 +1,6 @@
-package Week2.Mockito.exercise1.src.main.java.mockito;
+package mockito;
 
-public class ExternalApi 
+public interface ExternalApi 
 {
   String getData();
 }

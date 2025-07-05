@@ -1,9 +1,9 @@
-package Week2.Mockito.exercise1.src.main.java.mockito;
+package mockito;
 
 public class Myservice {
    private ExternalApi api;
 
-    public MyService(ExternalApi api) {
+    public Myservice(ExternalApi api) {
         this.api = api;
     }
 
