@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-JwtAuthApplication<com.example-jwt-auth>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.jwt_auth.JwtAuthApplication",
+      "projectName": "com.example-jwt-auth",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
