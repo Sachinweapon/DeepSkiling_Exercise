@@ -3,7 +3,7 @@ import "./App.css";
 import officeImg from "./office.jpg"; 
 
 function App() {
-  const element = "Office Space";
+  const element = "Premium Office Space";
 
   const ItemName = {
     Name: "DBS",
